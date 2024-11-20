@@ -16,6 +16,7 @@ public class Specialist extends HealthProfessional {
 
     @Override
     public void printInfo() {
+        System.out.println("Physician type: Specialist");
         super.printInfo() ;
         System.out.println("Date of visit : " + dateofvisit);
         System.out.println("Physician level : " + physicianlevel);
