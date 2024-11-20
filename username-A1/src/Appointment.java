@@ -28,4 +28,12 @@ public class Appointment {
         System.out.println("Preferred time: " + preferredtime);
         System.out.println("Doctor type: " + doctortype);
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getMobilephone() {
+        return mobilephone;
+    }
 }
