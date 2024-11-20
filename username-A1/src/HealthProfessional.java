@@ -20,29 +20,4 @@ public class HealthProfessional {
         System.out.println("Name: " + name);
         System.out.println("Work age: " + workage);
     }
-
-    public int getid() {
-        return id;
-    }
-
-    public void setid(int id) {
-        this.id = id;
-    }
-
-    public String getname() {
-        return name;
-    }
-
-    public void setname(String name) {
-        this.name = name;
-    }
-
-    public String getworkage() {
-        return workage;
-    }
-
-    public void setworkage(String workage) {
-        this.workage = workage;
-    }
-
 }
